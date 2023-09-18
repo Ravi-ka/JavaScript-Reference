@@ -1,0 +1,42 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+} 
+
+.display-list-items,
+.input-feilds{
+    display: grid;
+    grid-template-columns: 200px 150px 100px;
+    column-gap: 15px;
+    row-gap: 15px;
+}
+.input-feilds{
+    margin-bottom: 15px;
+}
+
+
+.add-button{
+    background-color: green;
+    border: none;
+    /* padding: 10px; */
+    width: 100px;
+    height: 35px;
+    color: white;
+    font-weight: bold;
+    font-size: 0.9rem;
+    padding: 5px;
+    cursor:pointer;
+}
+
+.delete-button{
+    background-color: rgb(169, 3, 3);
+    border: none;
+    /* padding: 10px; */
+    width: 100px;
+    height: 35px;
+    color: white;
+    font-weight: bold;
+    font-size: 0.9rem;
+    padding: 5px;
+    cursor:pointer;
+}
